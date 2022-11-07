@@ -1,0 +1,90 @@
+.container{
+    max-width: 336px;
+    /*height: 236px;*/
+    height: auto;
+    background: #FFFFFF;
+    position: relative;
+    top: 232px;
+    left: 408px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.yellowHeader{
+    max-width: 336px;
+    height: 28px;
+    background: #FFDC40;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p{
+    max-width: 164px;
+    height: 34px;
+    text-align: center;
+    position: relative;
+    left: 85px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sort{
+    max-width: 25px;
+    height: 15px;
+    background: url("/assets/asagideaktiv.png");
+    position: relative;
+    left: 281px;
+    top:12px;
+    cursor: pointer;/*turns to hand sign*/
+}
+
+.inputPanel{
+    max-width: 200px;
+    /*height: 25px;*/
+    height: auto;
+    position: relative;
+    left: 68px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.default{
+    max-width: 200px;
+    height: 20px;
+    resize: none;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("/assets/default.png");
+    margin-top: 2px;
+    margin-left: 4px;
+    cursor: pointer;/*turns to hand sign*/
+}
+
+.add{
+    position: relative;
+    left: 93px;
+    top: 2px;
+    width: 150px;
+    height: 42px;
+    background: url('/assets/add.png');
+    border: none;
+    cursor: pointer;/*turns to hand sign*/
+}
+
+.default{
+    max-width: 286px;
+    height: 20px;
+    resize: none;
+    position: relative;
+    /*left: 53.5px;*/
+    border-radius: 10px;
+    border:none;
+    overflow:hidden;
+    overflow-wrap: unset;
+}
